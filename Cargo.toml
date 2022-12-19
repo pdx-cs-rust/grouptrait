@@ -1,0 +1,17 @@
+[package]
+name = "grouptrait"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+num-traits = "0.2.15"
+
+[lib]
+name = "grouptrait"
+path = "grouptrait.rs"
+
+[[example]]
+name = "example"
+path = "example.rs"
